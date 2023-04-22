@@ -53,20 +53,11 @@ section#comercio{
     h1{
         text-align: left;
     }
-    .busca{
-      width: 150px;
-      left: 10px;
-      
-       
-       
-    }
     form{
         position: absolute;
         width: 230px;
         height: 29px;
-        right: 37%;
-        margin: auto;
-        text-align: center;
+        right: 41%;
         background: var(--cor3);height: 40px;
         border-radius: 40px;
         justify-content: center;
@@ -75,6 +66,13 @@ section#comercio{
         
         
     }
+    .busca{
+        width: 150px;
+        left: 10px;
+        
+         
+         
+      }
     .lupa{
         position: absolute;
        
