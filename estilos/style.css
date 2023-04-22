@@ -17,14 +17,15 @@
 header{
     font-family: var(--fonte-destaque);
     color: var(--cor2);
+    
 }
 h2#nomeredes{
     text-align: left;
     margin: 10px;
 }
 section#redessociais{
-    
-    background-image: linear-gradient(to right,  #29335c, #04229a);
+    position:relative;
+     background-image: linear-gradient(to right,  #29335c, #04229a);
     padding: 1px;
     font-size: .7em;
     text-align: center;
@@ -32,12 +33,21 @@ section#redessociais{
 img#imgrede{
     width: 40px;
     height: 40px;
-    padding: 10px;
+    padding: 5px;
     border-radius: 50%;
-    
+      
 }
+#imgrede:hover{
+    padding: 1px;
+    border: 2px solid #ffc15e ;
+    transform: translate(-2px, -2px);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.733);
+    transition: transform 0.4s, border .2s; 
+}
+
 section#comercio{
-    background-color: var(--cor0);
+     
+    background-image: linear-gradient(to right,  #29335c, #04229a);
     padding: 20px;
     }
     
