@@ -54,7 +54,7 @@ section#comercio{
         text-align: left;
     }
     .busca{
-      width: 250px;
+      width: 150px;
       left: 10px;
       
        
@@ -62,7 +62,7 @@ section#comercio{
     }
     form{
         position: absolute;
-        width: 365px;
+        width: 200px;
         height: 29px;
         right: 37%;
         top: 30%;
