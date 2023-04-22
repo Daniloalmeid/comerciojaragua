@@ -5,7 +5,7 @@
     padding: 0%;
 }
 :root{
-    --cor0: #212738;
+    --cor0: #29335c;
     --cor1: #ffc15e;
     --cor2: #f4faff;
     --cor3: #00a6a6;
@@ -18,15 +18,26 @@ header{
     font-family: var(--fonte-destaque);
     color: var(--cor2);
 }
+h2#nomeredes{
+    text-align: left;
+    margin: 10px;
+}
 section#redessociais{
-background-color: var(--cor0);
-padding: 10px;
-font-size: .7em;
+    
+    background-image: linear-gradient(to right,  #29335c, #04229a);
+    padding: 1px;
+    font-size: .7em;
+    text-align: center;
 }
 img#imgrede{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 50%;
     
 }
 section#comercio{
     background-color: var(--cor0);
     padding: 20px;
     }
+    
