@@ -15,10 +15,17 @@
     --fonte-destaque: "patua one", cursive;
 }
 header{
-    padding: 20px;
     font-family: var(--fonte-destaque);
     color: var(--cor2);
 }
-#redessociais{
+section#redessociais{
+background-color: var(--cor0);
+padding: 10px;
+font-size: .7em;
+
 
 }
+section#comercio{
+    background-color: var(--cor0);
+    padding: 20px;
+    }
