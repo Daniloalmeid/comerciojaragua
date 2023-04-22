@@ -1,11 +1,24 @@
 @charset "UTF8";
-header{
-    background-color: red;
-    image-rendering: auto;
+@import url('https://fonts.googleapis.com/css2?family= Patua +One & display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
 }
-div{
-    background-color: blue;
-    width: 400px;
-    height: 400px;
-    margin: 50px;
+:root{
+    --cor0: #212738;
+    --cor1: #ffc15e;
+    --cor2: #f4faff;
+    --cor3: #00a6a6;
+    --cor4: #9a031e;
+    --cor5: #4f6d7a;
+    --fonte-padrao: arial, verdana, helvetica, sans-serif;
+    --fonte-destaque: "patua one", cursive;
+}
+header{
+    padding: 20px;
+    font-family: var(--fonte-destaque);
+    color: var(--cor2);
+}
+#redessociais{
+
 }
