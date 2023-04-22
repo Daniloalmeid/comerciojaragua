@@ -22,8 +22,9 @@ section#redessociais{
 background-color: var(--cor0);
 padding: 10px;
 font-size: .7em;
-
-
+}
+img#imgrede{
+    
 }
 section#comercio{
     background-color: var(--cor0);
