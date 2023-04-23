@@ -123,6 +123,38 @@ section#comercio{
         color: black;
         
     }
+    .drop-menu{
+        display: none;
+        position: absolute;
+        
+    }
+
+    .drop-menu > a{
+        padding: 10px;
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        background-color: var(--cor4);
+        color: white;
+        text-align: center;
+
+    }
+    .drop:hover .drop-menu{
+        display: block; 
+        text-align: center;
+    }
+    .drop-menu > a:hover{
+        background-color: var(--cor1);
+        color: black;
+        border-radius: 15px;
+        text-align: center;
+        
+    }
+    
+   
+
+
+   
    
   
    
