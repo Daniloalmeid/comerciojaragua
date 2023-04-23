@@ -83,4 +83,26 @@ section#comercio{
         left: 87%;
         top: 32%;
     }
+    menu{
+        display: block;
+        background-color: var(--cor4);
+        
+    }
+    menu > ul {
+        list-style-type: none
+        ;
+       
+    }
+    menu > ul > li > a{
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        color: white;
+        
+       
+    }
+    menu > ul > li >a:hover{
+        background-color: var(--cor1);
+    }
+
     
