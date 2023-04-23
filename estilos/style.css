@@ -110,11 +110,18 @@ section#comercio{
         padding: 10px;
         text-decoration: none;
         color: white;
+        text-align: center;
+        font-family: var(--fonte-padrao);
+        font: bolder;
+        
         
        
     }
     menu > ul > li >a:hover{
         background-color: var(--cor1);
+        border-radius: 15px;
+        color: black;
+        
     }
    
 
