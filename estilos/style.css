@@ -49,6 +49,7 @@ section#comercio{
     background-image: linear-gradient(to left,  #29335c, #04229a);
     padding: 30px;
     text-align: center;
+    height: 90px;
     }
     h1{
         text-align: left;
@@ -83,8 +84,9 @@ section#comercio{
     }
     
     nav{
-        background-image: linear-gradient(to left,  #29335c, #04229a);
+        
         display: block;
         color: #010206;
+        
     }
     
