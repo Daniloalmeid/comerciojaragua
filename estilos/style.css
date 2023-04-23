@@ -15,7 +15,7 @@
     --fonte-destaque: "patua one", cursive;
 }
 header{
-    font-family: var(--fonte-destaque);
+    font-family: var(--fonte-padrao);
     color: var(--cor2);
     
 }
@@ -29,6 +29,7 @@ section#redessociais{
     padding: 1px;
     font-size: .7em;
     text-align: center;
+    font-family: var(--fonte-destaque);
 }
 img#imgrede{
     width: 40px;
@@ -149,6 +150,11 @@ section#comercio{
         border-radius: 15px;
         text-align: center;
         
+    }
+    article > div.artigos{
+        background-color: red;
+        width: 300px;
+        height: 250px;
     }
     
    
