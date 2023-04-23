@@ -47,7 +47,7 @@ img#imgrede{
 
 section#comercio{
     background-image: linear-gradient(to left,  #29335c, #04229a);
-    padding: 20px;
+    padding: 30px;
     text-align: center;
     }
     h1{
@@ -68,7 +68,10 @@ section#comercio{
     }
     .busca{
         width: 150px;
+        height: 20px;
         left: 10px;
+        border-radius: 10px;
+        text-align: center;
         
          
          
@@ -77,6 +80,9 @@ section#comercio{
         position: absolute;
         left: 87%;
         top: 32%;
+        
+        
+        
        
         
 
