@@ -56,7 +56,8 @@ section#comercio{
     }
     form{
         position: absolute;
-        width: 230px;
+        text-align: center;
+        width: 260px;
         height: 29px;
         right: 41%;
         background: var(--cor3);height: 40px;
@@ -68,7 +69,7 @@ section#comercio{
         
     }
     .busca{
-        width: 150px;
+        width: 180px;
         height: 20px;
         left: 10px;
         border-radius: 10px;
@@ -84,9 +85,11 @@ section#comercio{
     }
     
     nav{
-        
-        display: block;
         color: #010206;
+        display: inline-block;
         
     }
-    
+    nav > ul > li{
+        background-color: red;
+        display: inline-block;
+    }
