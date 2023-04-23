@@ -83,14 +83,26 @@ section#comercio{
         left: 87%;
         top: 32%;
     }
-    menu{
+    #iconm{
         display: block;
+        background-color: black;
+        text-align: center;
+        padding: 5px;
+    }
+    span#iconm:hover{
+        background-color: white;
+        color: black;
+        cursor: pointer;
+    }
+    menu{
+        display: none;
         background-color: var(--cor4);
         
     }
     menu > ul {
         list-style-type: none
         ;
+        
        
     }
     menu > ul > li > a{
@@ -104,5 +116,6 @@ section#comercio{
     menu > ul > li >a:hover{
         background-color: var(--cor1);
     }
+   
 
     
