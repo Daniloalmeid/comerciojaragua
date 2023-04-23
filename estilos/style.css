@@ -98,11 +98,13 @@ section#comercio{
     menu{
         display: none;
         background-color: var(--cor4);
+        margin-bottom: 10px;
         
     }
     menu > ul {
         list-style-type: none
         ;
+       
         
        
     }
@@ -122,6 +124,7 @@ section#comercio{
         background-color: var(--cor1);
         border-radius: 15px;
         color: black;
+       
         
     }
     .drop-menu{
@@ -155,6 +158,8 @@ section#comercio{
         background-color: red;
         width: 300px;
         height: 250px;
+        padding: 10px;
+        display: inline-block;
     }
     
    
