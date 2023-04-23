@@ -84,31 +84,3 @@ section#comercio{
         top: 32%;
     }
     
-    nav{
-        width: 100vw; 
-        display: inline-block;
-        background-color: var(--cor4);
-       
-       
-        
-    }
-    li{
-        padding: 10px;
-        display: inline-block;
-    }
-    a{
-        text-decoration: none;
-        color: white;
-    }
-    .dp.menu{
-        list-style-type: none;
-    }
-   .cmenu{
-    position: absolute;
-    display: none;
-    border-radius: 0px 0px 10px 10px ;
-   }
-   .cmenu .drop:hover{
-    display: block;
-    background-color: yellow;
-   }
