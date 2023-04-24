@@ -165,7 +165,8 @@ section#comercio{
         position: absolute;
         left: 50%;
         right: 50%;
-        transform: translate( -50% -50% );
+        bottom: 22%;
+        transform: translate( -50%, -50%);
         
         width: 250px;
         height: 125px;
