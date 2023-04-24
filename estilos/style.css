@@ -3,6 +3,7 @@
 *{
     margin: 0%;
     padding: 0%;
+    
 }
 :root{
     --cor0: #29335c;
@@ -113,7 +114,7 @@ section#comercio{
         padding: 10px;
         text-decoration: none;
         color: white;
-        text-align: center
+        text-align: center;
         font-family: var(--fonte-padrao);
         font: bolder;
         
@@ -155,21 +156,20 @@ section#comercio{
         
     }
     .artigo{
-        width: 100vw;
-        position: relative ;
+        position: 
     }
     div >.box1{
         
     }
     .box1{
+        width: auto;
         position: absolute;
-        left: 50%;
+        left: 24%;
         right: 50%;
-        bottom: 22%;
+        bottom: 3%;
         transform: translate( -50%, -50%);
-        
-        width: 250px;
-        height: 125px;
+        width: 270px;
+        height: 232px;
         background-color: red;
         padding: 10px; 
         
@@ -179,15 +179,27 @@ section#comercio{
        
        
     .box2{
-        width: 250px;
-        height: 125px;
+        width: auto;
+        position: absolute;
+        left: 50%;
+        right: 50%;
+        bottom: 3%;
+        transform: translate( -50%, -50%);
+        width: 270px;
+        height: 232px;
         background-color: green;
         padding: 10px; 
         
     }
     .box3{
-        width: 250px;
-        height: 125px;
+        width: auto;
+        position: absolute;
+        left: 74%;
+        right: 50%;
+        bottom: 3%;
+        transform: translate( -50%, -50%);
+        width: 270px;
+        height: 232px;
         background-color: blue; 
         padding: 10px;    
     }
