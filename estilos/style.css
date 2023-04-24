@@ -156,13 +156,13 @@ section#comercio{
         
     }
     .artigo{
-        position: 
+        
     }
     div >.box1{
         
     }
     .box1{
-        width: auto;
+        display: inline-block;
         position: absolute;
         left: 24%;
         right: 50%;
@@ -172,14 +172,14 @@ section#comercio{
         height: 232px;
         background-color: red;
         padding: 10px; 
-        
+        margin: 10px;
         
        
     }
        
        
     .box2{
-        width: auto;
+        display: inline-block;
         position: absolute;
         left: 50%;
         right: 50%;
@@ -192,7 +192,7 @@ section#comercio{
         
     }
     .box3{
-        width: auto;
+        display: inline-block;
         position: absolute;
         left: 74%;
         right: 50%;
